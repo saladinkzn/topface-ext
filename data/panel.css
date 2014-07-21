@@ -1,5 +1,22 @@
-#startLiking {
-	font-family: Arial,
-	border-radius: 6px,
-	color: #3866a3
+button {
+	font-family: Arial;
+	background: #3498db;
+	border-radius: 6px;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0 auto;
+	width: 48%;
+	padding: 10px 20px 10px 20px;
+	display: inline-block;
+}
+
+button:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}
+
+button:disabled {
+	background: #428BCA;
+	opacity: 0.65;
+	text-decoration: none;
 }

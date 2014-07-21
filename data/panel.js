@@ -19,4 +19,4 @@ if(stopLikeButton) {
 	}
 }
 
-
+self.port.emit('resize', {width: document.documentElement.clientWidth, height: document.documentElement.clientHeight});
